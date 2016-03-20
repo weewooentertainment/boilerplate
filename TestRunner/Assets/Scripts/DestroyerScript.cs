@@ -5,6 +5,7 @@ public class DestroyerScript : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other) {
 
+		//- Game Over, they hit the destroyer
 		if (other.tag == "Player") {
 			Debug.Break ();
 			return;
