@@ -7,7 +7,7 @@ public class DestroyerScript : MonoBehaviour {
 
 		//- Game Over, they hit the destroyer
 		if (other.tag == "Player") {
-			Debug.Break ();
+			Application.LoadLevel (1);
 			return;
 		}
 

@@ -56,7 +56,9 @@
      <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
      <Compile Include="Assets\Scripts\CameraRunnerScript.cs" />
      <Compile Include="Assets\Scripts\DestroyerScript.cs" />
+     <Compile Include="Assets\Scripts\GameOverScript.cs" />
      <Compile Include="Assets\Scripts\HUDScript.cs" />
+     <Compile Include="Assets\Scripts\PowerUpScript.cs" />
      <Compile Include="Assets\Scripts\SpawnScript.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
